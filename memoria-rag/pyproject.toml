@@ -1,0 +1,32 @@
+[project]
+name = "memoria-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Hacris1", email = "1143971030@u.icesi.edu.co" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.5.9",
+    "langchain-nvidia-ai-endpoints>=1.5.0",
+    "python-dotenv>=1.2.4",
+    "sentence-transformers>=6.2.0",
+    "torch>=2.15.0",
+]
+
+[project.scripts]
+memoria-rag = "memoria_rag:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
+
+# PyTorch solo para CPU: evita descargar varios GB de librerías CUDA.
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = { index = "pytorch-cpu" }

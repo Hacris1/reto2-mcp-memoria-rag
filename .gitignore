@@ -1,0 +1,6 @@
+# Claves de API: nunca se suben
+.env
+# Entornos virtuales y cachés
+.venv/
+__pycache__/
+*.py[oc]

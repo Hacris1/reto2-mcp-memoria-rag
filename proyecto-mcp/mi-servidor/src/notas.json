@@ -1,0 +1,12 @@
+[
+  {
+    "titulo": "Ideas",
+    "contenido": "Aprender MCP con uv",
+    "fecha": "2026-11-10T21:41:39"
+  },
+  {
+    "titulo": "Aprendizaje y experimentación con servidores MCP en Visual Studio Code",
+    "contenido": "Durante el desarrollo del ejercicio de servidores MCP en Visual Studio Code, se exploró cómo integrar herramientas externas con GitHub Copilot Chat mediante el Model Context Protocol (MCP).  Se realizaron pruebas con tres servidores: Memory, Notas y Fetch. El servidor Memory permitió almacenar y recuperar información del usuario entre diferentes conversaciones; Notas facilitó la creación y consulta de información persistente mediante archivos JSON; y Fetch permitió consultar contenido de páginas web para obtener información externa.  Esta actividad permitió comprender cómo los servidores MCP amplían las capacidades de los asistentes de inteligencia artificial, permitiéndoles interactuar con herramientas, consultar información y mantener datos persistentes. También se exploró la configuración y ejecución de servidores mediante Python, uv y la extensión GitHub Copilot Chat en VS Code.",
+    "fecha": "2026-11-10T21:52:28"
+  }
+]
